@@ -1,0 +1,14 @@
+node_modules
+build/
+.idea/
+.vscode
+dist
+*.log
+yarn.lock
+.env
+values.yaml
+coverage
+coverage-unit
+junit.xml
+prod-build-stats.json
+.DS_Store

@@ -1,0 +1,257 @@
+$grayColor: gray;
+$lightgrayColor: lightgray;
+$primaryColor: rgba(189, 26, 26, 0.815);
+
+.desctriptionDiv {
+    background-color: $lightgrayColor;
+    max-width: 75%;
+}
+
+.favoriteIcon {
+    filter: invert(.5);
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+}
+
+.factIcon {
+    filter: invert(.5);
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+}
+
+.cartIcon {
+    filter: invert(.5);
+    width: 20px;
+    height: 20px;
+    margin: 12px;
+    border-left: 1px solid $lightgrayColor;
+}
+
+.css-dlwkee-MuiBadge-badge {
+    background-color: $primaryColor;
+    margin: 12px;
+}
+
+.mainTitle {
+    color: $primaryColor;
+    font-size: 13px !important;
+    font-weight: 600 !important;
+    padding: 7px 0px;
+}
+
+.titleHeader {
+    color: $primaryColor;
+    font-size: 19px !important;
+    font-weight: 600 !important;
+}
+
+.descriptionText {
+    font-size: 13px !important;
+}
+
+.featuresDiv {
+    padding: 10px 0px;
+}
+
+.featureRowDiv {
+    display: flex;
+}
+
+.dot {
+    width: 1px;
+}
+
+.featureText {
+    font-size: 13px !important;
+}
+
+.priceBreaksText {
+    font-size: 12px !important;
+}
+
+.overviewDiv {
+    display: flex;
+    padding: 30px 20px;
+}
+
+.firstColumnOverview {
+    margin-right: 10px;
+    width: 10%;
+}
+
+.secondColumn {
+    width: 30%;
+}
+
+.imageFirstBoxDiv {
+    border: 1px solid $lightgrayColor;
+    padding: 20%;
+}
+
+.imageBoxDiv {
+    border: 1px solid $lightgrayColor;
+    padding: 20%;
+    margin-top: 10px;
+}
+
+.iconn {
+    filter: invert(.5);
+    width: 100%;
+    height: 70px;
+}
+
+.iconAdd {
+    filter: invert(1);
+    width: 20px;
+    height: 20px;
+}
+
+.imageBoxDivLarge {
+    border: 1px solid $lightgrayColor;
+    padding: 30%;
+}
+
+.iconBoxLarge {
+    width: 100%;
+    height: 180px;
+    filter: invert(.5);
+}
+
+.overviewTitle {
+    font-size: 13px !important;
+}
+
+.overviewText {
+    font-size: 13px !important;
+    color: $grayColor;
+}
+
+.discountImg {
+    width: 20px;
+    margin-left: 10px;
+}
+
+.thirdColumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 30px;
+    width: 32%;
+
+    .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+        height: 30px;
+        border-radius: inherit !important;
+        width: 60px;
+    }
+}
+
+.keywords {
+    background-color: $lightgrayColor;
+    border-radius: 10px;
+    margin: 2px 2px !important;
+    padding: 1px 10px;
+    font-size: 13px !important;
+    color: white;
+    text-align: center;
+}
+
+.keywordRow {
+    display: flex
+}
+
+.fileNameDiv {
+    display: flex;
+    font-size: 13px !important;
+}
+
+.priceBreakDiv {
+    margin-top: 20px;
+    width: 70%;
+}
+
+.priceBreakDivItem {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+
+.addButton {
+    border-radius: inherit !important;
+    background: $primaryColor !important;
+    height: 30px;
+    margin-left: 10px !important;
+    text-transform: none !important;
+}
+
+.homeDescDetailDiv {
+    padding: 20px;
+    background: lightGray;
+}
+
+.homeDetailsPricingDiv {
+    display: flex;
+    justify-content: space-between;
+    max-width: 75%;
+    margin-top: 20px;
+}
+
+.deatilsPricingDiv {
+    background-color: white;
+    width: 48%;
+    padding: 0 10px;
+}
+
+.header {
+    height: 45px !important;
+    box-shadow: none !important;
+}
+
+.headerShadow {
+    height: 45px !important;
+}
+
+.css-hyum1k-MuiToolbar-root {
+    min-height: 45px !important;
+}
+
+.headerDiv {
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    border-bottom: 1px solid $lightgrayColor;
+}
+
+.headerDivShadow {
+    display: flex;
+    justify-content: space-between;
+    background: white;
+}
+
+.pceText {
+    color: black;
+    font-size: 13px !important;
+    padding: 5px 5px;
+}
+
+.iconsDiv {
+    display: flex;
+    height: 100%;
+}
+
+.textBoxDiv {
+    display: flex;
+    margin: 7px;
+
+    .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+        height: 30px;
+        border-radius: inherit !important;
+        width: 60px;
+    }
+}
+
+.attachmentIcon {
+    width: 12px;
+    margin-right: 8px;
+}
